@@ -23,8 +23,6 @@ function stray(numbers) {
     }
   });
 
-  console.log(frequency);
-
   for (let key in frequency) {
     if (frequency[key] === 1) {
       return parseInt(key);
